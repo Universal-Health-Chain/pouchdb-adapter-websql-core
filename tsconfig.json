@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015"],
+    "target": "es2015",
+    "module": "commonjs",
+    "types": ["jest", "node"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "outDir": "lib",
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+  "include": ["./src"],
+  "exclude": [
+    "lib",
+    "node_modules",
+    "**/__tests__/*",
+    "**/test/*",
+    "*.test.ts"
+  ]
+}
