@@ -1,19 +1,22 @@
-@universal-health-chain/pouchdb-adapter-websql-core ![semver non-compliant](https://img.shields.io/badge/semver-non--compliant-red.svg)
+![logo](https://avatars.githubusercontent.com/u/57396025?s=200&v=4)
+
+# @universal-health-chain/pouchdb-adapter-websql-core-ts ![semver non-compliant](https://img.shields.io/badge/semver-non--compliant-red.svg)
 ======
 
 Underlying adapter code for WebSQL and SQLite-based PouchDB adapters.
 
+Forked from the original pouchdb adapter (see https://www.npmjs.com/package/pouchdb-adapter-websql-core), but using Typescript.
+
 ### Usage
 
 ```bash
-npm install --save-exact @universal-health-chain/pouchdb-adapter-websql-core
+npm install --save-exact @universal-health-chain/pouchdb-adapter-websql-core-ts
 ```
 
 And then import it:
-```bash
-import { WebSqlPouchCore } from '@universal-health-chain/pouchdb-adapter-websql-core';
+```js
+import { WebSqlPouchCore } from '@universal-health-chain/pouchdb-adapter-websql-core-ts';
 ```
-
 
 For full API documentation and guides on PouchDB, see [PouchDB.com](http://pouchdb.com/). For details on PouchDB sub-packages, see the [Custom Builds documentation](http://pouchdb.com/custom.html).
 

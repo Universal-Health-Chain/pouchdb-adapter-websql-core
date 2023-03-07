@@ -1,5 +1,5 @@
 {
-  "name": "@universal-health-chain/pouchdb-adapter-websql-core",
+  "name": "@universal-health-chain/pouchdb-adapter-websql-core-ts",
   "version": "7.2.3",
   "description": "Underlying adapter code for WebSQL and SQLite-based PouchDB adapters.",
   "main": "lib/index.js",
@@ -7,7 +7,10 @@
   "keywords": [],
   "author": "Dale Harvey <dale@arandomurl.com>",
   "license": "Apache-2.0",
-  "repository": "https://github.com/pouchdb/pouchdb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pouchdb/pouchdb.git"
+  },
   "jsnext:main": "./lib/index.js",
   "scripts": {
     "type-check": "tsc --noEmit",
@@ -41,5 +44,13 @@
   "module": "./lib/index.js",
   "files": [
     "lib"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/pouchdb/pouchdb/issues"
+  },
+  "homepage": "https://github.com/pouchdb/pouchdb#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
