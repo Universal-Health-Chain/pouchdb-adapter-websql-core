@@ -5,7 +5,7 @@
 
 Underlying adapter code for WebSQL and SQLite-based PouchDB adapters.
 
-Forked from the original pouchdb adapter (see https://www.npmjs.com/package/pouchdb-adapter-websql-core), but using Typescript.
+Forked from the original pouchdb adapter (see https://github.com/craftzdog/pouchdb-adapter-websql-core/tree/master/src), but using Typescript.
 
 ### Usage
 
